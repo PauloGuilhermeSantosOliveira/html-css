@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes Externas</title>
+    <style>
+       @font-face {
+        font-family:'Varsity';
+        src: url(fonts/varsity_regular.ttf) format('truetype');
+        font-weight: normal;
+        font-style: normal;
+       }
+       body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        h1{
+            font-family: 'Varsity', Times, serif;
+            font-size: 3em;
+            font-weight: normal;
+        }
+        p{
+            font-family: 'Varsity', Times, serif;
+            font-size: 1em;
+            font-weight: normal;
+        }
+        /*
+        TIPOS DE FORMAT()
+        - opentype (otf)
+        - truetype (ttf)
+        - embedded-opentype
+        - truetype-aat (Apple Advanced Typography)
+        - svg
+         */
+    </style>
+</head>
+<body>
+    <h1>TÍTULO 1</h1>
+    <p>Essa fonte so funciona em MAIUSCULO, caso queira outras com minúsculo rever no site <a href="https://dafont.com/" target="_blank"  rel="external">dafont</a></p>
+</body>
+</html>
